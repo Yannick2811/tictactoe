@@ -1,0 +1,50 @@
+body {
+  background-color: #ffce47;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  margin: 1.5em 0 1.5em 0;
+}
+
+h3 {
+  margin: 0 0 2em 0;
+}
+
+span {
+  font-size: 1.3em;
+}
+
+.squares {
+  min-height: 70vh;
+  min-width: 70vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  border: 3px solid #4d4d4d;
+  gap: 1em;
+  background-color: #fff4d6;
+  border-radius: 15px;
+  padding: 1em;
+}
+
+.square {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  font-size: 12rem;
+  line-height: 100%;
+  background-color: #a8edff;
+  border-radius: 10px;
+}
+
+.square:hover {
+  cursor: pointer;
+  background-color: #7ae4ff;
+}
